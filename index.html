@@ -349,22 +349,29 @@
 											<a href="#" class="image"><img src="images/rover1.png" alt="" /></a>
 											<h3>Leo Rover MSc Group Project</h3>
 											<p>This project is a group-based MSc project involving the assembly and programming of a fully autonomous mobile robot designed
-											to identify and manipulate specified objects. My role in the group is the team leader and finisher. At the current stage, the base robot is assembled and the group is in the process of
-											testing the wheel and camera functions. 
+											to identify and manipulate specified objects, storing them onboard the rover as it explores an arena, before depositing them into a specified storage bin. 
+											My role in the group is the team leader and finisher. Currently the team has developed the rover to the point
+											where the camera and manipulator are integrated together, allowing the camera to detect an object and send coordinates through a central node to the manipulator 
+											which is also within a node. The naviagtion system is developed to the point where the rover can autonomously move around an arena until it has fully explored the area,
+											then return to its original position. The next major challenge for this rover is creating a state machine and implementing more focused wheel control so when it detects a target
+											it can move towards it until it is in range of the manipulator.
 											</p>
 											<h4>Goals:</h4>
 											<ul>
 												<li>Develop a ROS2 node that can detect multiple coloured blocks and measure their location.</li>
-												<li>Develop a.</li>
-												<li>Ensure that the A* algorithm is optimised to execute quickly.</li>
+												<li>Develop a central node which can amange messages sent from peripheral nodes between each other, and facilitate computation of values provided by peripherals.</li>
+												<li>Program a naviagtion and mapping node which allows the rover to autonomously move within an arena.</li>
+												<li>Integrate each component of the rover to produce a fully autonomous vehicle.</li>
+												<li>Many more goals are found on the rover's github page shown in 'More Information'.</li>
 											</ul>
 											<h4>My Contributions:</h4>
-											<p>Without the use of libraries, I created the code which ran inside the function called by the GUI to perform the A* algorithm. Each subfunction was developed to perform all the checks and comparisons
-											required for the A* algorithm to operate, such as checking that the next node is not part of a 'closed set' or that a node in the gridspace was not classed as an obstacle
-											and therefore blocking the path.
+											<p>My main function within the team was to develop the robotic manipulator programming, which I have developed to the point that the manipulator can reliably pick up the target blocks within
+											its ideal range. I also helped integrate the robotic arm with the camera through collaboration with my teammate to facilitate the accurate grasping and arm movements. I additionally contributed to 
+											the group reports through completing the mechanical design section and planning components such as a Gantt chart, with another responsibility in the development of the 3D printed and laser cut
+											payload sled used to carry all sensor, manipulator and computation components on the rover.
 											</p>
 											<ul class="actions">
-												<li><a href="https://github.com/AS-UoM/Leo_Rover_Project" class="button">More Information</a></li>
+												<li><a href="https://github.com/akshattnj/LEO-ROVER-CODING" class="button">More Information</a></li>
 											</ul>
 										</article>
 										<article>
@@ -376,8 +383,19 @@
 											and its importance. It further analyses ethical design through research on diverse ethical practices and how those values could be embedded into autonomous
 											and intelligent systems to improve the ethical impact of autonomous systems.
 											</p>
+											<h4>Goals:</h4>
+											<ul>
+												<li>Create a video explaining the impact of ethical design on autonomous and intelligent systems.</li>
+												<li>Analyse a diverse range of ethical practices and how they can be implemented in autonomous systems.</li>
+												<li>Demonstrate in a hypothetical scenario how different ethical practices could affect the autonomous system.</li>
+											</ul>
+											<h4>My Contributions:</h4>
+											<p>Similarly to my other video-based courseworks, I researched the relevant topics and created slides based on my research, with integrated subtitles to improve accessibility
+											over normal subtites.
+											</p>
 											
 										</article>
+										
 										<article>
 											<a href="#" class="image"><img src="images/linefollower0.jpg" alt="" /></a>
 											<h3>BEng Group Project - Line-following Semi-autonomous Robot</h3>
@@ -385,6 +403,17 @@
 											designed to follow a series of straight and curved lines using optical sensors. This robot was tasked with the ability to follow a white line on a black track with any unseen
 											track shape, completing multiple demonstrations over the project's lifespan, ending with a final demonstration. Alongside the robot, sensor and motor characterisation
 											research was taken, with multiple reports being created based on the robot.
+											</p>
+											<h4>Goals:</h4>
+											<ul>
+												<li>Design an autonomous robt that follows a white line on a black track.</li>
+												<li>Implement PID control in conjunction with phototransistors in order to control the error correction of the robot.</li>
+												<li>Demonstrate a working line-following robot system in stages during a series of demonstrations.</li>
+											</ul>
+											<h4>My Contributions:</h4>
+											<p>During this group project I was the team leader and main programmer, contributing the majority of the code used in the robot and spending a significant amount of time testing
+											each functionality. I completed multiple sections of the report the team had to develop and submit, making Gantt charts and explaining the functionality of the software. Multiple reports
+											were developed based on sensor and motor characteristaion, alongside design reports for the robot and a final report.
 											</p>
 											<ul class="actions">
 												<li><a href="https://github.com/AS-UoM/Line_Follower_Robot" class="button">More Information</a></li>
@@ -398,6 +427,16 @@
 											<p>During this research, open-loop and closed-loop control methods were implemented in a simulation of a differential drive robot represented
 											in 2D space. This research recorded the position and trajectory of the simulated robot over a period of time, allowing for comparisons between results
 											and the explanation of the benefits of closed-loop control in a robotic system.
+											</p>
+											<h4>Goals:</h4>
+											<ul>
+												<li>Create a video explaining the difference and improvement of closed-loop control over open-loop control.</li>
+												<li>Program a simulated differential drive robot to move over a specific trajectory with and without sensor noise.</li>
+												<li>Analyse and explain the difference in results between open-loop and closed-loop control and how noise affects the system..</li>
+											</ul>
+											<h4>My Contributions:</h4>
+											<p>Similarly to my other video-based courseworks, I researched the relevant topics and created slides based on my research, with integrated subtitles to improve accessibility
+											over normal subtites.
 											</p>
 										</article>
 										
