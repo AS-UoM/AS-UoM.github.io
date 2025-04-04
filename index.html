@@ -117,6 +117,18 @@
 											capable of movement, speech recognition and synthesis, machine vision and facial recognition. This 
 											project involves a wide range of engieering principles, including 3D modelling and printing, custom PCB design,
 											control system programming and machine learning.</p>
+											<h4>Goals:</h4>
+											<ul>
+												<li>Create a humanoid robot capable of manipulating objects using manipulator arms.</li>
+												<li>Integrate speech synthesis and speech recognition into the humanoid robot.</li>
+												<li>Integrate forward and inverse kinematics to allow walking or wheeled locomotion.</li>
+												<li>Develop a friendly humanoid shell for the robot and integrate human characteristics.</li>
+											</ul>
+											<h4>My Contributions:</h4>
+											<p>Currently, almost the entire robot has been 3D modelled, with the head being 3D printed out and assembled, with programming the head being the next main goal.
+											I have also developed previously code that worked with the various peripherals of the robot's head which need to be integrated together. As this is a personal project
+											I am the sole contributor to this project (outside of library creators, etc.).
+											</p>
 											<ul class="actions">
 												<li><a href="https://github.com/AS-UoM/Humanoid_Robot_Project" class="button">More Information</a></li>
 											</ul>
@@ -127,6 +139,16 @@
 											<p>My secondary personal project is a handheld console designed to develop my microcontroller
 											firmware programming skills and increase my experience with microcontroller peripheral components and communication protocols. 
 											The skills gained from this project are then to be implemented in my robotics projects.
+											</p>
+											<h4>Goals:</h4>
+											<ul>
+												<li>Create a handheld console that can run programs from an external flash storage.</li>
+												<li>Create a PCB which contains all the required functionality for the console.</li>
+												<li>Develop a program which successfully runs on the console.</li>
+											</ul>
+											<h4>My Contributions:</h4>
+											<p>At this point in time, the main contributions to this project consists of the 3D model for the console casing which is partially complete and the PCB
+											schematic which is also partially complete as university project are prioritised over personal projects.
 											</p>
 											<ul class="actions">
 												<li><a href="https://github.com/AS-UoM/STM32_Handheld_Console" class="button">More Information</a></li>
@@ -155,7 +177,7 @@
 											<ul>
 												<li>Create a simulated robot that can travel to a specific location.</li>
 												<li>Ensure the robot turns on and off using ROS2 nodes.</li>
-												<li>Provide a sensor which outpus data at a specified time interval.</li>
+												<li>Provide a sensor which outputs data at a specified time interval.</li>
 											</ul>
 											<h4>My Contributions:</h4>
 											<p>I created all required packages and nodes for the simulated robot. I also created the publishers, subscribers, servers and clients which were used by the nodes. The rest of the requirements such
@@ -172,6 +194,16 @@
 											which would be able to map out the surrounding environment using simulated sensors such as a LiDAR. This included the use of xacro to be able to store variables and reuse them when needed
 											instead of repeating each one as in URDF. The simulation used Gazebo and RViz with a given simulated map which then had to be seen by the LiDAR and camera system.
 											</p>
+											<h4>Goals:</h4>
+											<ul>
+												<li>Create a 3D URDF file model of a robot tto required specifications.</li>
+												<li>Ensure the SLAM toolbox correctly functions with the simulated robot in Gazebo.</li>
+												<li>Create an accurate RQT graph for the robot system.</li>
+											</ul>
+											<h4>My Contributions:</h4>
+											<p>Most requirements for the coursework were completed, with the main missing components being the twist function node and slight errors in the URDF model. Every other aspect of the
+											coursework was completted by me in Python.
+											</p>
 											<ul class="actions">
 												<li><a href="https://github.com/AS-UoM/Gazebo_Sim" class="button">More Information</a></li>
 											</ul>
@@ -181,8 +213,19 @@
 											<h3>Neural Networks using PyTorch and Machine Learning using Numpy and Pandas</h3>
 											<p>In this university project there were two main tasks involving the use of Numpy and Pandas to do data splitting, imputation, model training and evaluation, but also another task
 											which three different optimisers were created using PyTorch to be used in the training of a neural network on the MNIST classification dataset. The optimisers created were a Stochastic
-											Gradient Descent, Stochastic Gradient Descent with momentum and AdaGrad optimiser. Additionally, code to train the datasets was developed and run, with the results shown in the
+											Gradient Descent (SGD), Stochastic Gradient Descent with momentum and AdaGrad optimiser. Additionally, code to train the datasets was developed and run, with the results shown in the
 											github repository shown with 'More Information'.
+											</p>
+											<h4>Goals:</h4>
+											<ul>
+												<li>Develop SGD, SGD with momentum and AdaGrad machine learning optimisers.</li>
+												<li>Find the optimal w value with SGD.</li>
+												<li>Train and output results for trained machine learning models.</li>
+											</ul>
+											<h4>My Contributions:</h4>
+											<p>I developed three optimiser code snippets using PyTorch and accompanying training and validatioon code. This meant I could train the machine learning model and output the data into a text document.
+											I also created an SGD optimiser without PyTorch and trained it, to allow it to output its error after testing. This was done within two Jupyter notebooks
+											provided as part of the coursework.
 											</p>
 											<ul class="actions">
 												<li><a href="https://github.com/AS-UoM/ML_NN" class="button">More Information</a></li>
@@ -194,6 +237,17 @@
 											<p>One of the tasks completed during my MSc Robotics course is the creation of an A-Star algorithm using only Python for the main program and pyQT5 to provide an interactable
 											GUI. It consisted of the research of the A* algorithm from previous literature and online resources, with the implementation of the algorithm in a separate
 											C++ file which would be loaded when running the simulation.
+											</p>
+											<h4>Goals:</h4>
+											<ul>
+												<li>Develop A* algorithm that successfully avoids obstacles.</li>
+												<li>Develop A* algorithm that finds the optimal path with the given heuristics.</li>
+												<li>Ensure that the A* algorithm is optimised to execute quickly.</li>
+											</ul>
+											<h4>My Contributions:</h4>
+											<p>Without the use of libraries, I created the code which ran inside the function called by the GUI to perform the A* algorithm. Each subfunction was developed to perform all the checks and comparisons
+											required for the A* algorithm to operate, such as checking that the next node is not part of a 'closed set' or that a node in the gridspace was not classed as an obstacle
+											and therefore blocking the path.
 											</p>
 											<ul class="actions">
 												<li><a href="https://github.com/AS-UoM/A-Star_Algorithm" class="button">More Information</a></li>
